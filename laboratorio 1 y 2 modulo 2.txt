@@ -1,0 +1,43 @@
+video 1 update upgrade 
+
+date
+sudo dnf update
+sudo dnf upgrade 
+dnf repolist 
+sudo dnf install git make
+git clone httpd://github.com/aristocratos/bashtop.git
+clear 
+cd
+ls
+cd bashtop
+make install 
+./bashtop
+ which bashtop
+sudo rm -rf bashtop
+cd 
+ls 
+sudo rm -rf bashtop
+ls
+sudo dnf remove git make 
+sudo dnf autoremove
+dnf repolist
+date
+
+
+video 2 crontab at 
+
+date
+cat /etc/crontab
+crontab -e
+i
+0 23 * * * sudo dnf update &&  upgrade
+0 3 * * 0  sudo reboot
+:wq
+clear
+crontab -l
+sud at now +1 minute
+rm -rf /tmp/
+d
+crontab -l
+date 
+
